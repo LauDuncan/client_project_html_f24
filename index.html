@@ -9,28 +9,38 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Student Success Portal</title>
+    <title>UMSI: Student Success Portal</title>
 </head>
 
 <body>
-    <div class = "skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+
     <header>
-        <img id="logo" src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <h1 id="website-title">Student Success Portal</h1>
-        <nav>
+        <img id="logo" src="images/block-m-hex.png" alt="UMSI Logo">
+
+        <h1 id="website-title">UMSI: Success Portal </h1>
+
+        <a class="menu-icon" href="#nav">
+            <span class="material-icons md-36">menu</span>
+            <span class="menu-text">Menu</span>
+        </a>
+        <nav id="nav">
+            <a class="menu-close" href="#">
+                <span class="material-icons md-36">close</span>
+            </a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="page_1.html">CEW +</a></li>
                 <li><a href="page_2.html">CAPS</a></li>
                 <li><a href="page_3.html">Food Pantry</a></li>
-                <a class="menu-close" href="#">close</a>
             </ul>
-            <a class="menu-icon" href="#website-title">menu</a>
         </nav>
+
     </header>
+
     <main class="container" id="main">
         <section class="overview">
             <h2>Welcome to the UM Grad Success Navigator</h2>
