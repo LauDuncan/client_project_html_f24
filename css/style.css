@@ -338,7 +338,7 @@ footer a {
     color: #00274C;
 }
 
-/* Tablet view when width exceeds 600px, decision made based on the most common, lowest width tablet screen resolution in 2024. Source: https://www.browserstack.com/guide/common-screen-resolutions */
+/* Tablet view when width exceeds 768px, decision made based on the most common tablet screen resolution in 2024, view will remain the same for desktop view as well. Source: https://www.browserstack.com/guide/common-screen-resolutions */
 @media screen and (min-width: 768px) {
 
     /* Adjust to normal top nav */
